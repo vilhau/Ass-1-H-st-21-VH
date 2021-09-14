@@ -1,14 +1,59 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
-output: html_notebook
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
-Introduction
+## **Introduction**
 
-Short literature review
+The emphasis on reproducibility in computational science has become an
+increasingly important subject in the world of science and economics.
+Innovations in for example new technologies have made it possible to
+make great progress in the field of science, with many new discoveries
+being made. However, as McNutt (2014, p. 226) states in the beginning of
+the editorial in *Science*: *"Science advances on a foundation of
+trusted discoveries"*. Many scientific papers are shown in later years
+to be falsely concluded, such as Giles and Tedd´s (2002) book about the
+Canadian underground economy. Therefore, we can´t see the advancements
+in science in the share number of new discoveries being made, but rather
+the quality of them and that they are trusted. One such way of judging
+the scientific claims its what Peng (2011) means to being a minimum
+requirement when replication is not possible, that the study is
+reproducible.
 
-Discussion 
+In this paper we will discuss the differences between replicability and
+reproducibility, the importance of reproducibility in science and how R
+Notebook may be a potential solution to this problem.
+
+## Short literature review
+
+In the spectrum of reproducibility a full replication is considered the
+"gold standard" in science. We can define replicability as "*the ability
+of a researcher to duplicate the result of a prior study if the same
+procedures are followed but new data are collected*" (Bollen et al.,
+2015, p. 7). Whereas reproducibility is seen as "*the ability of a
+researcher to duplicate the results of a prior study using the same
+materials and procedures as were used by the original investigator*"
+(Bollen et al., 2015, p. 6). Hence a full replication of a study may
+prove to be quite expensive and time consuming, many researcher have
+been calling for reproducible research as minimum standard to validate
+scientific claims (Peng, 2014).
+
+Discussion
 
 Conclusion
 
 References
+
+McCullough, B. D., McGeary, K. A., & Harrison, T. D. (2008). Do
+economics journal archives promote replicable research?. Canadian
+Journal of Economics/Revue canadienne d'économique, 41(4), 1406-1420.
+
+Bollen, K., Cacioppo, J. T., Kaplan, R. M., Krosnick, J. A., & Olds, J.
+L. (2015). Reproducibility, replicability, and generalization in the
+social, behavioral, and economic sciences. *Report of the Subcommittee
+on Replicability in Science Advisory Committee to the National Science
+Foundation Directorate for Social, Behavioral, and Economic Sciences.
+Arlington, VA: National Science Foundation*.
