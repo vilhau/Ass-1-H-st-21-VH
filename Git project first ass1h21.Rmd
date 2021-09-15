@@ -30,6 +30,9 @@ Peng (2011) emphasizes that even though a research is reproducible, quality, cor
 
 ## **Conclusion**
 
+Help but not a solution/fix
+Issues such as:
+Different OS system, packages, software etc
 ## **References**
 
 McCullough, B. D., McGeary, K. A., & Harrison, T. D. (2008). Do economics journal archives promote replicable research?. Canadian Journal of Economics/Revue canadienne d'économique, 41(4), 1406-1420.
