@@ -5,21 +5,25 @@ output:
   html_document:
     df_print: paged
 ---
-hei 
 
-## **Introduction**
-
+# Introduction
+## Reproducibility
 In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.
 
 The emphasis on reproducibility in computational science has become an increasingly important subject in the world of science and economics. Innovations in for example new technologies have made it possible to make great progress in the field of science, with many new discoveries being made. However, as McNutt (2014, p. 226) states in the beginning of the editorial in *Science*: *"Science advances on a foundation of trusted discoveries"*. Many scientific papers are shown in later years to be falsely concluded, such as Giles and Tedd´s (2002) book about the Canadian underground economy. Therefore, we can´t see the advancements in science in the share number of new discoveries being made, but rather the quality of them and that they are trusted. One such way of judging the scientific claims is what Peng (2011) means to being a minimum requirement when replication is not possible, that the study is reproducible.
 
+## Challenges
 
-## **Short literature review**
+Science advances on findings of trustworthy research and results. A crucial factor in knowing whether these findings are reliable is whether it is possible to reproduce the results. The ability to reproduce a research and get the same results is essential when making trusted conclusion. Unfortunately reproducibility is one big challenge in science. Many articles that are produced in peer-reviewed journals have problems with reproducibility (McNutt 2014). These challenges entails weak ability of investigators to build on prior work. The problems with reproducibility arise due to deficient of data and documentation of used procedures, software and packages. A reason to why this deficiency occur is old, lost or unpublished data. Data, software and packages are in many cases kept private, which makes it impossible to duplicate the original research.
+
+
+
+# Short literature review
 
 In the spectrum of reproducibility a full replication is considered the "gold standard" in science. We can define replicability as "*the ability of a researcher to duplicate the result of a prior study if the same procedures are followed but new data are collected*" (Bollen et al., 2015, p. 7). Whereas reproducibility is seen as "*the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator*" (Bollen et al., 2015, p. 6). Hence a full replication of a study may prove to be quite expensive and time consuming, many researcher have been calling for reproducible research as minimum standard to validate scientific claims (Peng, 2014).
 
 
-## **Discussion**
+# Discussion
 
 When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientis the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
 
@@ -29,12 +33,13 @@ sessionInfo()
 R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be reveald. However, this is only the case if the scientis saves the versions of tools being used and results are interpreted in the R notebook.
 Peng (2011) emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
 
-## **Conclusion**
+# Conclusion
 
 Help but not a solution/fix
 Issues such as:
 Different OS system, packages, software etc
-## **References**
+
+# **References**
 
 McCullough, B. D., McGeary, K. A., & Harrison, T. D. (2008). Do economics journal archives promote replicable research?. Canadian Journal of Economics/Revue canadienne d'économique, 41(4), 1406-1420.
 
