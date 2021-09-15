@@ -8,6 +8,10 @@ output:
 
 ## **Introduction**
 
+In this paper we will discuss the differences between replicability and
+reproducibility, the importance of reproducibility in science and how R
+Notebook may be a potential solution to this problem.
+
 The emphasis on reproducibility in computational science has become an
 increasingly important subject in the world of science and economics.
 Innovations in for example new technologies have made it possible to
@@ -19,13 +23,11 @@ to be falsely concluded, such as Giles and Tedd´s (2002) book about the
 Canadian underground economy. Therefore, we can´t see the advancements
 in science in the share number of new discoveries being made, but rather
 the quality of them and that they are trusted. One such way of judging
-the scientific claims its what Peng (2011) means to being a minimum
+the scientific claims is what Peng (2011) means to being a minimum
 requirement when replication is not possible, that the study is
 reproducible.
 
-In this paper we will discuss the differences between replicability and
-reproducibility, the importance of reproducibility in science and how R
-Notebook may be a potential solution to this problem.
+
 
 ## Short literature review
 
@@ -41,11 +43,14 @@ prove to be quite expensive and time consuming, many researcher have
 been calling for reproducible research as minimum standard to validate
 scientific claims (Peng, 2014).
 
-Discussion
 
-Conclusion
+## Discussion
 
-References
+When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientis the ability to follow the same procedures when duplicating research.
+
+## Conclusion
+
+## References
 
 McCullough, B. D., McGeary, K. A., & Harrison, T. D. (2008). Do
 economics journal archives promote replicable research?. Canadian
