@@ -22,6 +22,8 @@ Science advances on findings of trustworthy research and results. A crucial fact
 
 In the spectrum of reproducibility a full replication is considered the "gold standard" in science. We can define replicability as "*the ability of a researcher to duplicate the result of a prior study if the same procedures are followed but new data are collected*" (Bollen et al., 2015, p. 7). Whereas reproducibility is seen as "*the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator*" (Bollen et al., 2015, p. 6). Hence a full replication of a study may prove to be quite expensive and time consuming, many researcher have been calling for reproducible research as minimum standard to validate scientific claims (Peng, 2014).
 
+Se på foredraget: 1930
+
 
 # Discussion
 
