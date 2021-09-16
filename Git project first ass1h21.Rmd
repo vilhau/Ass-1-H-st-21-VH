@@ -13,6 +13,8 @@ bibliography: references.bib
 
 **In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.**
 
+Tedd, jesny, breusch
+
 Scientific research and the methodologies have undergone tremendous technological evolutions in the latest decades. However, the manner these scientific papers and studies are being published have stayed in the most part the same, and to an extent we can say that its fifty years behind [@gentleman2005]. For instance, we find that many scientific papers that have been published, are in later days being falsely concluded when thoroughly replicated. One such example can be illustrated with Giles and Tedds (2002) book about the Canadian underground economy. Their founding's showed that the illegal economy had grown tremendously in just under two decades from 3.6% to 15,6 % [@mccullough2008] However, the model they used, MIMIC (multiple indicator, multiple cause), was in later years deemed useless by researcher Breusch (2005) for this experiment.
 
 ## Challenges
