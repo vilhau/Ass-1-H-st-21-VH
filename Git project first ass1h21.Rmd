@@ -55,7 +55,6 @@ A potential solution to this issue is the implementation of a research compendiu
 
 Help but not a solution/fix Issues such as: Different OS system, packages, software etc
 
-***Test***
 
 # **References**
 
