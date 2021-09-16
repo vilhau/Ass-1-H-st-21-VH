@@ -14,12 +14,6 @@ In this paper we will discuss the differences between replicability and reproduc
 
 Scientific research and the methodologies have undergone tremendous technological evolutions in the latest decades. However, the manner these scientific papers and studies are being published have stayed in the most part the same, and to an extent we can say that its fifty years behind (Gentleman, 2005). For instance, we find that many scientific papers that have been published, are in later days being falsely concluded when thoroughly replicated. One such example can be illustrated with Giles and Tedds (2002) book about the Canadian underground economy. Their founding's showed that the illegal economy had grown tremendously in just under two decades from 3.6% to 15,6 % (McCullough et al., 2008) However, the model they used, MIMIC (multiple indicator, multiple cause), was in later years deemed useless by researcher Breusch (2005) for this experiment.
 
-Dette er bare tull for å få noe nytt i en branch. sbhjhgjashjgkdghj ahjhjhj hjadhjadhjks
-
-snmsmbdmnmnskjhkashjks
-
-asnhashjashj jkjhshjkhkjads USAHKUHKJKHJ
-
 ## Challenges
 
 Science advances on findings of trustworthy research and results. A crucial factor in knowing whether these findings are reliable is whether it is possible to reproduce the results. The ability to reproduce a research and get the same results is essential when making trusted conclusion. Unfortunately reproducibility is one big challenge in science. Many articles that are produced in peer-reviewed journals have problems with reproducibility (McNutt 2014). These challenges entails weak ability of investigators to build on prior work. The problems with reproducibility arise due to deficient of data and documentation of used procedures, software and packages. A reason to why this deficiency occur is old, lost or unpublished data. Data, software and packages are in many cases kept private, which makes it impossible to duplicate the original research.
