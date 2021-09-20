@@ -21,15 +21,13 @@ Science advances on findings of trustworthy research and results. A crucial fact
 
 What we try to understate here is that even though scientific development has seen huge growth, especially in the 20th century, there is much information being produced that are misleading. As a consequence, new methods have to be implemented to set a basis standard for scientific claims. Not only to validate these claims, but also to reduce the uncertainty and dangers for other scientists to become involved in a study with money and resources that are later shown to be false. [@peng2011] suggests in the beginning of his article about reproducible research, that reproducibility in fact, should become a minimum requirement for scientific papers to validate their claims.
 
-# Short literature review
+## Short literature review
 
 Replication of a study is described by [@jasny2011] as the "gold standard" in scientific research @mccullough2008 . We can define replication as *"the ability of a researcher to duplicate the result of a prior study if the same procedures are followed, but new data are collected"* [@bollen2015]. One reason why it's considered the absolute gold standard for researcher is that they can conduct the experiment or study in a new way, with new data-sets, but still conclude the same result. Reproducibility on the other hand can be seen as *"the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator"* @bollen2015. Here the same procedures and data will be used to attempt to attain the same result as the original investigation. From the definitions we can see that replication is much wider than reproducibility, giving room for more flexibility in the research.
 
 In economics, there have been different leading professional journals published by scientists. In 1933, Frisch composed a journal that worked as a leading article in econometrics for many years [@frisch1933a]. During this period, scientists would not publish original data in statistical and numerous work unless their volume were excessive or comprehensive @frisch1933.
 
-In Frisch's journal, Ezekiel wrote an empirical work with conducting datasets. In this era, regression analysis was pervasive to implement even though the datasets were available [@ezekiel1933].
-
-In 1960, scientists advanced big economic models. However, notwithstanding bigger models, it was still unmanageable to move data from one mainframe to another. The predicaments arose because scientists produced the datasets in software and programs related to specific computers. The research results were published exclusively, without exposure of codes, datasets, or research procedures. This way of constructing made reproduction nearly impossible.
+In Frisch's journal, Ezekiel wrote an empirical work with conducting datasets. In this era, regression analysis was pervasive to implement even though the datasets were available [@ezekiel1933]. In 1960, scientists advanced big economic models. However, notwithstanding bigger models, it was still unmanageable to move data from one mainframe to another. The predicaments arose because scientists produced the datasets in software and programs related to specific computers. The research results were published exclusively, without exposure of codes, datasets, or research procedures. This way of constructing made reproduction nearly impossible.
 
 The leading professional journal, "The journal of money, credit and banking project", founded by Dewald in 1982, attempted to replicate published articles [@dewald1986]. The investigators conducted a study on the reproducibility of published articles by using datasets submitted with various published articles. This attempt concluded that only 2 of the 70 examined articles were possible to reproduce [@dewald1986]. The results were generally disappointing due to missing data, software errors, no documentation, lost and missing investigators and data. In addition, many authors just ignored requests for data and code.
 
@@ -43,7 +41,7 @@ When performing research in R notebooks all codes used trough the performance is
 sessionInfo()
 ```
 
-R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be revealed. However, this is only the case if the scientis saves the versions of tools being used and results are interpreted in the R notebook. @peng2011 emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
+R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be revealed. However, this is only the case if the scientist saves the versions of tools being used and results are interpreted in the R notebook. @peng2011 emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
 
 ## A potential solution
 
