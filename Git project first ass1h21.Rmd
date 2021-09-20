@@ -138,7 +138,27 @@ different elements that make up the document and its computations, and
 as a means for distributing, managing and updating the collection". The
 goal here is to achieve a greater way to construct a reproducible
 project with software such as R. An important factor to the compendium
-is that it contains
+is that it contains one or multiple dynamicdocuments, which can be
+continually updated and edited. In addition, it can beconverted into a
+more traditional form setting such as static document. It canbe defined
+as an "*ordered composition of code chunks and text chunks thatdescribe
+and discuss a problem and its solution*" (Gentleman et al. 2004, p.6).
+The code chunks in program languages such as R, are sequences of
+command,
+where the ordering of these doesn't have to be sequential. But, rather
+be a support for more complex structures in the document. Finally, text
+chunks are used to describe the problem.
+
+So how can the usage of a research compendium be a potential solution
+with reproducibility? A common idea around this is related the factor of
+publication. Hence readers of the article or paper now can access the
+code and data used, will result in easier management in reproducing. In
+addition, by utilizing a compendium will make your work more efficient,
+since it allows for more open communication between individual
+researchers and the ability to test and validate your claims. To
+summarize, by employing a compendium it will make your content more
+available to others, it will be more accessible to validation and it
+opens the possibility for others to continue the work on the project.
 
 # Conclusion
 
