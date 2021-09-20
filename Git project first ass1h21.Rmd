@@ -123,11 +123,11 @@ sessionInfo()
 
 R Notebooks can be aligned with reproducibility as it enables
 documentation of used procedures. In this way potential mistakes in the
-procedure can be revealed. However, this is only the case if the scientis
-saves the versions of tools being used and results are interpreted in
-the R notebook. @peng2011 emphasizes that even though a research is
-reproducible, quality, correctness and validity of the published results
-is not guaranteed.
+procedure can be revealed. However, this is only the case if the
+scientis saves the versions of tools being used and results are
+interpreted in the R notebook. @peng2011 emphasizes that even though a
+research is reproducible, quality, correctness and validity of the
+published results is not guaranteed.
 
 ## A potential solution
 
