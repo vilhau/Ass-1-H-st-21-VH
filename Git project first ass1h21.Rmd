@@ -1,9 +1,9 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 bibliography: references.bib
 ---
 
@@ -144,6 +144,60 @@ is that it contains
 
 Help but not a solution/fix Issues such as: Different OS system,
 packages, software etc
+
+We believe that introducing the standard of making data and computer
+code available to others through R Notebook, will only partly solve the
+problem with reproducibility. From the research conducted in this
+assignment we found that there were a few critical barriers that
+prohibits the usage of reproducibility in the field of science. On the
+the upside technological innovations has made it much easier to share
+detailed logs about all codes being used, and will most definitely be
+more precise than a journal using a natural language.
+
+However, one issue related to sharing code through R Notebook will be
+that the code earlier used, may no longer be available. This will hinder
+the researchers ability to reproduce the content that was earlier
+created. In addition, another version of the software may have been
+used, which may lead to a different result when applying the same data
+code. **Packages, OS Software**
+
+On the contrary, one of the biggest barriers related to achieving
+reproducible research, is the lack of an integrated culture within the
+science community. In spite of many incremental steps towards this goal,
+it will most likely be a long process before we see this type of culture
+fully implemented. **Peng (2011)**, described this culture as an
+"culture of reproducibility", and the effect this would have on the
+field of science would be immense. For example, we would see
+reproducibility as a bare minimum standard for all scientific papers,
+which would not only validate scientific claims, but also make the
+information spread out to the masses more reliable.
+
+Furthermore, when it comes to the question about researcher incentives
+to engage in reproducible research, we believe it to be mixed results.
+On the one hand, we can see that there is a lack of penalties for not
+contributing to this matter. According to **McCullough et al. (2008)**,
+they described that the auteurs who refused policies related to
+replication and those who wouldn't distribute their code and data to an
+archive would not get a penalty. A stricter penalty system, where
+authors a least would have to distribute their code and data would
+promote cause for reproducible research. On the other hand, we see
+multiple journals who have adopted a mandatory demand for data and code
+archives such as *Econometrica* in 2005. By having these integrated
+adaptations in their journals, it will further incentivize
+reproducibility among researchers.
+
+Reproducibility in the field of science is something that will develop
+slowly, but steady towards the future. The increased awareness about
+this issue and the implementation of for example, electronic journals,
+mandatory archives and code sharing platforms such as Github, have made
+the possibility to engage in reproducible research simpler and more
+available. With further implementation to the infrastructure, it will
+keep evolving. As stated earlier, the importance of a deeply integrated
+culture within the field of science will be essential for the
+development. Where all future papers being released would have the
+mandatory code and data distributed to others, giving the chance to
+reproduce the content and reduce the change of misinformation being
+spread.
 
 # **References**
 
