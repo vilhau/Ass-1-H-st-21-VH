@@ -11,212 +11,59 @@ bibliography: references.bib
 
 ## Reproducibility
 
-**In this paper we will discuss the differences between replicability
-and reproducibility, the importance of reproducibility in science and
-how R Notebook may be a potential solution to this problem.**
+**In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.**
 
-
-Scientific research and the methodologies have undergone tremendous
-technological evolutions in the latest decades. However, the manner
-these scientific papers and studies are being published have stayed in
-the most part the same, and to an extent we can say that its fifty years
-behind [@gentleman2005]. For instance, we find that many scientific
-papers that have been published, are in later days being falsely
-concluded when thoroughly replicated. One such example can be
-illustrated with Giles and Tedds (2002) book about the Canadian
-underground economy. Their founding's showed that the illegal economy
-had grown tremendously in just under two decades from 3.6% to 15,6 %
-[@mccullough2008] However, the model they used, MIMIC (multiple
-indicator, multiple cause), was in later years deemed useless by
-researcher Breusch (2005) for this experiment.
+Scientific research and the methodologies have undergone tremendous technological evolutions in the latest decades. However, the manner these scientific papers and studies are being published have stayed in the most part the same, and to an extent we can say that its fifty years behind [@gentleman2005]. For instance, we find that many scientific papers that have been published, are in later days being falsely concluded when thoroughly replicated. One such example can be illustrated with Giles and Tedds (2002) book about the Canadian underground economy. Their founding's showed that the illegal economy had grown tremendously in just under two decades from 3.6% to 15,6 % [@mccullough2008] However, the model they used, MIMIC (multiple indicator, multiple cause), was in later years deemed useless by researcher Breusch (2005) for this experiment.
 
 ## Challenges
 
-Science advances on findings of trustworthy research and results. A
-crucial factor in knowing whether these findings are reliable is whether
-it is possible to reproduce the results. The ability to reproduce a
-research and get the same results is essential when making trusted
-conclusion. Unfortunately reproducibility is one big challenge in
-science. Many articles that are produced in peer-reviewed journals have
-problems with reproducibility [@mcnutt2014]. These challenges entails
-weak ability of investigators to build on prior work. The problems with
-reproducibility arise due to deficient of data and documentation of used
-procedures, software and packages. A reason to why this deficiency occur
-is old, lost or unpublished data. Data, software and packages are in
-many cases kept private, which makes it impossible to duplicate the
-original research.
+Science advances on findings of trustworthy research and results. A crucial factor in knowing whether these findings are reliable is whether it is possible to reproduce the results. The ability to reproduce a research and get the same results is essential when making trusted conclusion. Unfortunately reproducibility is one big challenge in science. Many articles that are produced in peer-reviewed journals have problems with reproducibility [@mcnutt2014]. These challenges entails weak ability of investigators to build on prior work. The problems with reproducibility arise due to deficient of data and documentation of used procedures, software and packages. A reason to why this deficiency occur is old, lost or unpublished data. Data, software and packages are in many cases kept private, which makes it impossible to duplicate the original research.
 
-What we try to understate here is that even though scientific
-development has seen huge growth, especially in the 20th century, there
-is much information being produced that are misleading. As a
-consequence, new methods have to be implemented to set a basis standard
-for scientific claims. Not only to validate these claims, but also to
-reduce the uncertainty and dangers for other scientists to become
-involved in a study with money and resources that are later shown to be
-false. [@peng2011] suggests in the beginning of his article about
-reproducible research, that reproducibility in fact, should become a
-minimum requirement for scientific papers to validate their claims.
+What we try to understate here is that even though scientific development has seen huge growth, especially in the 20th century, there is much information being produced that are misleading. As a consequence, new methods have to be implemented to set a basis standard for scientific claims. Not only to validate these claims, but also to reduce the uncertainty and dangers for other scientists to become involved in a study with money and resources that are later shown to be false. [@peng2011] suggests in the beginning of his article about reproducible research, that reproducibility in fact, should become a minimum requirement for scientific papers to validate their claims.
 
 # Short literature review
 
-Replication of a study is seen as Jesny et al. (2011) suggests as the
-"gold standard" in scientific research. We can define replication as
-*"the ability of a researcher to duplicate the result of a prior study
-if the same procedures are followed, but new data are collected"*
-[@bollen2015]. One reason why it's considered the absolute gold standard
-for researcher is that they can conduct the experiment or study in a new
-way, with new data-sets, but still conclude the same result.
-Reproducibility on the other hand can be seen as *"the ability of a
-researcher to duplicate the results of a prior study using the same
-materials and procedures as were used by the original investigator"*
-@bollen2015. Here the same procedures and data will be used to attempt
-to attain the same result as the original investigation. From the
-definitions we can see that replication is much wider than
-reproducibility, giving room for more flexibility in the research.
+Replication of a study is seen as Jesny et al. (2011) suggests as the "gold standard" in scientific research. We can define replication as *"the ability of a researcher to duplicate the result of a prior study if the same procedures are followed, but new data are collected"* [@bollen2015]. One reason why it's considered the absolute gold standard for researcher is that they can conduct the experiment or study in a new way, with new data-sets, but still conclude the same result. Reproducibility on the other hand can be seen as *"the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator"* @bollen2015. Here the same procedures and data will be used to attempt to attain the same result as the original investigation. From the definitions we can see that replication is much wider than reproducibility, giving room for more flexibility in the research.
 
-In economics, there have been different leading professional journals
-published by scientists. In 1933, Frisch composed a journal that worked
-as a leading article in econometrics for many years. During this period,
-scientists would not publish original data in statistical and numerous
-work unless their volume were excessive or comprehensive @frisch1933.
+In economics, there have been different leading professional journals published by scientists. In 1933, Frisch composed a journal that worked as a leading article in econometrics for many years. During this period, scientists would not publish original data in statistical and numerous work unless their volume were excessive or comprehensive @frisch1933.
 
-In Frisch's journal, Ezekiel wrote an empirical work with conducting
-datasets. In this era, regression analysis was pervasive to implement
-even though the datasets were available [@ezekiel1933].
+In Frisch's journal, Ezekiel wrote an empirical work with conducting datasets. In this era, regression analysis was pervasive to implement even though the datasets were available [@ezekiel1933].
 
-In 1960, scientists advanced big economic models. However,
-notwithstanding bigger models, it was still unmanageable to move data
-from one mainframe to another. The predicaments arose because scientists
-produced the datasets in software and programs related to specific
-computers. The research results were published exclusively, without
-exposure of codes, datasets, or research procedures. This way of
-constructing made reproduction nearly impossible.
+In 1960, scientists advanced big economic models. However, notwithstanding bigger models, it was still unmanageable to move data from one mainframe to another. The predicaments arose because scientists produced the datasets in software and programs related to specific computers. The research results were published exclusively, without exposure of codes, datasets, or research procedures. This way of constructing made reproduction nearly impossible.
 
-The leading professional journal, "The journal of money, credit and
-banking project", founded by Dewald in 1982, attempted to replicate
-published articles. The investigators conducted a study on the
-reproducibility of published articles by using datasets submitted with
-various published articles. This attempt concluded that only 2 of the 70
-examined articles were possible to reproduce [@dewald1986]. The results
-were generally disappointing due to missing data, software errors, no
-documentation, lost and missing investigators and data. In addition,
-many authors just ignored requests for data and code.
+The leading professional journal, "The journal of money, credit and banking project", founded by Dewald in 1982, attempted to replicate published articles. The investigators conducted a study on the reproducibility of published articles by using datasets submitted with various published articles. This attempt concluded that only 2 of the 70 examined articles were possible to reproduce [@dewald1986]. The results were generally disappointing due to missing data, software errors, no documentation, lost and missing investigators and data. In addition, many authors just ignored requests for data and code.
 
 # Discussion
 
-When performing research in R notebooks all codes used trough the
-performance is saved and documented. Accordingly, R notebooks helps
-reduce a barrier to reproducibility by making codes available. Published
-and available codes give other researchers and scientist the ability to
-follow the same procedures when duplicating research. For instance the
-function *"SessionInfo"* can be helpful and informative when duplicating
-procedures as it documents information about which packages and R
-versions used by the original investigator.
+When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
 
-***This is an example of a code-chunk which shows the packages used in
-the program.***
+***This is an example of a code-chunk which shows the packages used in the program.***
 
 ```{r Example SessionInfo Code-Chunk}
 sessionInfo()
 ```
 
-R Notebooks can be aligned with reproducibility as it enables
-documentation of used procedures. In this way potential mistakes in the
-procedure can be revealed. However, this is only the case if the
-scientis saves the versions of tools being used and results are
-interpreted in the R notebook. @peng2011 emphasizes that even though a
-research is reproducible, quality, correctness and validity of the
-published results is not guaranteed.
+R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be revealed. However, this is only the case if the scientis saves the versions of tools being used and results are interpreted in the R notebook. @peng2011 emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
 
 ## A potential solution
 
-A potential solution to this issue is the implementation of a research
-compendium, which combines text, data and auxiliary software.
-[@gentleman2007] described a compendium as "a container for the
-different elements that make up the document and its computations, and
-as a means for distributing, managing and updating the collection". The
-goal here is to achieve a greater way to construct a reproducible
-project with software such as R. An important factor to the compendium
-is that it contains one or multiple dynamicdocuments, which can be
-continually updated and edited. In addition, it can beconverted into a
-more traditional form setting such as static document. It canbe defined
-as an "*ordered composition of code chunks and text chunks thatdescribe
-and discuss a problem and its solution*" (Gentleman et al. 2004, p.6).
-The code chunks in program languages such as R, are sequences of
-command,
-where the ordering of these doesn't have to be sequential. But, rather
-be a support for more complex structures in the document. Finally, text
-chunks are used to describe the problem.
+A potential solution to this issue is the implementation of a research compendium, which combines text, data and auxiliary software. [@gentleman2007] described a compendium as "a container for the different elements that make up the document and its computations, and as a means for distributing, managing and updating the collection". The goal here is to achieve a greater way to construct a reproducible project with software such as R. An important factor to the compendium is that it contains one or multiple dynamicdocuments, which can be continually updated and edited. In addition, it can be converted into a more traditional form setting such as static document. It canbe defined as an "*ordered composition of code chunks and text chunks that describe and discuss a problem and its solution*" [@gentleman2007a]. The code chunks in program languages such as R, are sequences of command, where the ordering of these doesn't have to be sequential. But, rather be a support for more complex structures in the document. Finally, text chunks are used to describe the problem.
 
-So how can the usage of a research compendium be a potential solution
-with reproducibility? A common idea around this is related the factor of
-publication. Hence readers of the article or paper now can access the
-code and data used, will result in easier management in reproducing. In
-addition, by utilizing a compendium will make your work more efficient,
-since it allows for more open communication between individual
-researchers and the ability to test and validate your claims. To
-summarize, by employing a compendium it will make your content more
-available to others, it will be more accessible to validation and it
-opens the possibility for others to continue the work on the project.
+So how can the usage of a research compendium be a potential solution with reproducibility? A common idea around this is related the factor of publication. Hence readers of the article or paper now can access the code and data used, will result in easier management in reproducing. In addition, by utilizing a compendium will make your work more efficient, since it allows for more open communication between individual researchers and the ability to test and validate your claims. To summarize, by employing a compendium it will make your content more available to others, it will be more accessible to validation and it opens the possibility for others to continue the work on the project.
 
 # Conclusion
 
-Help but not a solution/fix Issues such as: Different OS system,
-packages, software etc
+Help but not a solution/fix Issues such as: Different OS system, packages, software etc
 
-We believe that introducing the standard of making data and computer
-code available to others through R Notebook, will only partly solve the
-problem with reproducibility. From the research conducted in this
-assignment we found that there were a few critical barriers that
-prohibits the usage of reproducibility in the field of science. On the
-the upside technological innovations has made it much easier to share
-detailed logs about all codes being used, and will most definitely be
-more precise than a journal using a natural language.
+We believe that introducing the standard of making data and computer code available to others through R Notebook, will only partly solve the problem with reproducibility. From the research conducted in this assignment we found that there were a few critical barriers that prohibits the usage of reproducibility in the field of science. On the the upside technological innovations has made it much easier to share detailed logs about all codes being used, and will most definitely be more precise than a journal using a natural language.
 
-However, one issue related to sharing code through R Notebook will be
-that the code earlier used, may no longer be available. This will hinder
-the researchers ability to reproduce the content that was earlier
-created. In addition, another version of the software may have been
-used, which may lead to a different result when applying the same data
-code. **Packages, OS Software**
+However, one issue related to sharing code through R Notebook will be that the code earlier used, may no longer be available. This will hinder the researchers ability to reproduce the content that was earlier created. In addition, another version of the software may have been used, which may lead to a different result when applying the same data code. **Packages, OS Software**
 
-On the contrary, one of the biggest barriers related to achieving
-reproducible research, is the lack of an integrated culture within the
-science community. In spite of many incremental steps towards this goal,
-it will most likely be a long process before we see this type of culture
-fully implemented. **Peng (2011)**, described this culture as an
-"culture of reproducibility", and the effect this would have on the
-field of science would be immense. For example, we would see
-reproducibility as a bare minimum standard for all scientific papers,
-which would not only validate scientific claims, but also make the
-information spread out to the masses more reliable.
+On the contrary, one of the biggest barriers related to achieving reproducible research, is the lack of an integrated culture within the science community. In spite of many incremental steps towards this goal, it will most likely be a long process before we see this type of culture fully implemented. [@peng2011a] , described this culture as an "culture of reproducibility", and the effect this would have on the field of science would be immense. For example, we would see reproducibility as a bare minimum standard for all scientific papers, which would not only validate scientific claims, but also make the information spread out to the masses more reliable.
 
-Furthermore, when it comes to the question about researcher incentives
-to engage in reproducible research, we believe it to be mixed results.
-On the one hand, we can see that there is a lack of penalties for not
-contributing to this matter. According to **McCullough et al. (2008)**,
-they described that the auteurs who refused policies related to
-replication and those who wouldn't distribute their code and data to an
-archive would not get a penalty. A stricter penalty system, where
-authors a least would have to distribute their code and data would
-promote cause for reproducible research. On the other hand, we see
-multiple journals who have adopted a mandatory demand for data and code
-archives such as *Econometrica* in 2005. By having these integrated
-adaptations in their journals, it will further incentivize
-reproducibility among researchers.
+Furthermore, when it comes to the question about researcher incentives to engage in reproducible research, we believe it to be mixed results. On the one hand, we can see that there is a lack of penalties for not contributing to this matter. According to [@mccullough2008], auteurs who refused policies related to replication and those who wouldn't distribute their code and data to an archive did not get a penalty. A stricter penalty system, where authors at least would have to distribute their code and data would promote cause for reproducible research. On the other hand, we see multiple journals who have adopted a mandatory demand for data and code archives such as *Econometrica* in 2005 ( @frisch1933 ) . By having these integrated adaptations in their journals, it will further incentivize reproducibility among researchers.
 
-Reproducibility in the field of science is something that will develop
-slowly, but steady towards the future. The increased awareness about
-this issue and the implementation of for example, electronic journals,
-mandatory archives and code sharing platforms such as Github, have made
-the possibility to engage in reproducible research simpler and more
-available. With further implementation to the infrastructure, it will
-keep evolving. As stated earlier, the importance of a deeply integrated
-culture within the field of science will be essential for the
-development. Where all future papers being released would have the
-mandatory code and data distributed to others, giving the chance to
-reproduce the content and reduce the change of misinformation being
-spread.
+Reproducibility in the field of science is something that will develop slowly, but steady towards the future. The increased awareness about this issue and the implementation of for example, electronic journals, mandatory archives and code sharing platforms such as Github, have made the possibility to engage in reproducible research simpler and more available. With further implementation to the infrastructure, it will keep evolving. As stated earlier, the importance of a deeply integrated culture within the field of science will be essential for the development. Where all future papers being released would have the mandatory code and data distributed to others, giving the chance to reproduce the content and reduce the change of misinformation being spread.
 
 # **References**
 
@@ -227,7 +74,6 @@ spread.
 
 1.  Screenshot of git-history
 
--   We have included a screenshot of our git-history to show commits and
-    branches used during writing this paper.
+-   We have included a screenshot of our git-history to show commits and branches used during writing this paper.
 
 ![](images/Skjermbilde%202021-09-16%20kl.%2011.44.39.png)
