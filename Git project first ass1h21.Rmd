@@ -77,9 +77,7 @@ We believe that introducing the standard of making data and computer code availa
 
 Reproducibility in the field of science is something that developes slowly but steadily towards the future. The increased awareness about this issue and the implementation of electronic journals, mandatory archives, and code-sharing platforms such as Github has made the possibility to engage in reproducible research more achievable. With further implementation, the infrastructure can keep evolving. As stated earlier, the importance of a deeply integrated culture within science will be essential for development. If future papers are released, published, and distributed to others, it will reduce the spread of misinformation and make reproducibility achievable.
 
-To summarize, we found several indications that computable documents such as Rnotebooks can increase the possibility of reproducibility. 
-Computable documents are a possible way to solve issues connected to mandatory archives and code-sharing platforms. However, notwithstanding the possibilities R notebooks and computable documents entail, other predicaments need to be solved to optimize reproducibility. There will still be a need for development in other components of the domain. In conclusion, R notebook implies a step in the right direction but not a complete solution to this problem.
- 
+To summarize, we found several indications that computable documents such as Rnotebooks can increase the possibility of reproducibility. Computable documents are a possible way to solve issues connected to mandatory archives and code-sharing platforms. However, notwithstanding the possibilities R notebooks and computable documents entail, other predicaments need to be solved to optimize reproducibility. There will still be a need for development in other components of the domain. In conclusion, R notebook implies a step in the right direction but not a complete solution to this problem.
 
 # **References**
 
@@ -90,4 +88,4 @@ Computable documents are a possible way to solve issues connected to mandatory a
 
 We have included a screenshot of our git-history to show commits and branches used during writing this paper.
 
-![](images/Skjermbilde%202021-09-16%20kl.%2011.44.39.png)
+![](images/Skjermbilde%202021-09-21%20kl.%2018.31.03-01.png)
