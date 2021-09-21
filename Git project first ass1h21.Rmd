@@ -13,15 +13,15 @@ bibliography: references.bib
 
 **In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.**
 
-Scientific research and the methodologies have undergone tremendous technological evolutions in the latest decades. However, the manner these scientific papers and studies are being published have stayed in the most part the same, and to an extent we can say that its fifty years behind [@gentleman2004a]. For instance, we find that many scientific papers that have been published, are in later days being falsely concluded when thoroughly replicated. One such example can be illustrated with Giles and Tedds book in @mccullough2008 about the Canadian underground economy. Their founding's showed that the illegal economy had grown tremendously in just under two decades from 3.6% to 15,6 % [@mccullough2008] However, the model they used, MIMIC (multiple indicator, multiple cause), was in later years deemed useless by researcher Breusch ( @mccullough2008 ) for this experiment.
+Scientific research and methodologies have undergone tremendous technological evolution in the latest decades. However, the manner in which these scientific papers and studies are being published has remained the same. To an extent, we can claim that publication methods are fifty years behind [@gentleman2004a]. For instance, we find that many published scientific papers are falsely concluded when thoroughly replicated. Giles and Tedd's book in @mccullough2008 illustrates an example of this matter around the Canadian underground economy. Their findings showed that the illegal economy grew tremendously in just under two decades from 3.6% to 15,6 % [@mccullough2008]. However, the model they used, MIMIC (multiple indicators, multiple causes), was later deemed useless by researcher Breusch for this experiment [@mccullough2008] .
 
 ## Challenges
 
-Science advances on findings of trustworthy research and results. A crucial factor in knowing whether these findings are reliable is whether it is possible to reproduce the results. The ability to reproduce a research and get the same results is essential when making trusted conclusion. Unfortunately reproducibility is one big challenge in science. Many articles that are produced in peer-reviewed journals have problems with reproducibility [@mcnutt2014]. These challenges entails weak ability of investigators to build on prior work. The problems with reproducibility arise due to deficient of data and documentation of used procedures, software and packages. A reason to why this deficiency occur is old, lost or unpublished data. Data, software and packages are in many cases kept private, which makes it impossible to duplicate the original research.
+Science advances on findings of trustworthy research and results. A crucial factor in knowing whether these findings are reliable is whether it is possible to reproduce the results. The ability to reproduce research and get the same results is essential when making a trusted conclusion. Unfortunately, reproducibility is a big challenge in science. Many articles that are produced in peer-reviewed journals have problems with reproducibility [@mcnutt2014]. These challenges entail weak ability of investigators to build on prior work. The issues with reproducibility arise due to insufficient data and documentation of used procedures, software, and packages. A reason why this deficiency occurs is old, lost or unpublished data. Data, software, and packages are kept private in many cases, making it impossible to duplicate the original research.
 
-What we try to understate here is that even though scientific development has seen huge growth, especially in the 20th century, there is much information being produced that are misleading. As a consequence, new methods have to be implemented to set a basis standard for scientific claims. Not only to validate these claims, but also to reduce the uncertainty and dangers for other scientists to become involved in a study with money and resources that are later shown to be false. [@peng2011] suggests in the beginning of his article about reproducible research, that reproducibility in fact, should become a minimum requirement for scientific papers to validate their claims.
+We try to understate here that even though scientific development has seen tremendous growth, especially in the 20th century, much of produced information is misleading. As a consequence, new methods should be implemented to set a basic standard for scientific claims. Not only to validate these claims but also to reduce the uncertainty and dangers of other scientists to become involved in a study with money and resources that prove false. [@peng2011] suggests in the beginning of his article about reproducible research, that reproducibility in fact, should become a minimum requirement for scientific papers to validate their claims.
 
-## Short literature review
+## Literature review
 
 Replication of a study is described by [@jasny2011] as the "gold standard" in scientific research @mccullough2008 . We can define replication as *"the ability of a researcher to duplicate the result of a prior study if the same procedures are followed, but new data are collected"* [@bollen2015]. One reason why it's considered the absolute gold standard for researcher is that they can conduct the experiment or study in a new way, with new data-sets, but still conclude the same result. Reproducibility on the other hand can be seen as *"the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator"* @bollen2015. Here the same procedures and data will be used to attempt to attain the same result as the original investigation. From the definitions we can see that replication is much wider than reproducibility, giving room for more flexibility in the research.
 
@@ -33,6 +33,20 @@ The leading professional journal, "The journal of money, credit and banking proj
 
 # Discussion
 
+While investigating the importance of reproducibility we found a few points of significance to the matter that we will discuss further:
+
+1.  **Documentation of used procedures**
+
+-   Data, codes, packages and software
+-   Quality, correctness and validity
+
+2.  **Individual preferences**
+
+-   Demand for data and code archives
+-   Policies, penalties
+
+3.  **Culture within science community**
+
 When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
 
 ***This is an example of a code-chunk which shows the packages used in the program.***
@@ -42,6 +56,12 @@ sessionInfo()
 ```
 
 R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be revealed. However, this is only the case if the scientist saves the versions of tools being used and results are interpreted in the R notebook. @peng2011 emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
+
+One issue related to sharing code through R Notebook is that the original code may no longer be available. Loss of original codes will hinder the researcher's ability to reproduce the content earlier created. In addition, using different versions of software may lead to different results when applying the same data code.**Packages, OS Software**
+
+The results seems to be mixed when it comes to researcher incentives to engage in reproducible research. On the one hand, we can see a lack of penalties for not contributing to this matter. According to @mccullough2008, auteurs who refused policies related to reproducibility and those who wouldn't distribute their code and data to an archive did not get a penalty. A stricter penalty system, where authors would have to distribute their code and data, may promote cause for reproducible research. On the other hand, we see multiple journals that have adopted a mandatory demand for data and code archives, such as "Econometrica" in 2005 @frisch1933. Having these integrated adaptations in their journals can further incentivize reproducibility among researchers.
+
+One of the most significant barriers to reproducible research seems to be the lack of an integrated culture within the science community. Despite many incremental steps towards this goal, it will most likely be a long process before we see this type of culture fully implemented. [@peng2011] describes this culture as a "culture of reproducibility," and the effect this may have on the field of science can be immense. For example, we would see reproducibility as a bare minimum standard for all scientific papers, which would validate scientific claims and make the information spread out to the masses more reliable.
 
 ## A potential solution
 
@@ -55,11 +75,11 @@ So how can the usage of a research compendium be a potential solution with repro
 
 We believe that introducing the standard of making data and computer code available to others through R Notebook, will only partly solve the problem with reproducibility. From the research conducted in this assignment, we found that a few critical barriers prohibit reproducibility in the field of science. On the upside, technological innovations have made sharing detailed logs about all utilized codes much more manageable. They will most definitely be more precise than a journal using a natural language.
 
-However, one issue related to sharing code through R Notebook will be that the original code may no longer be available. Loss of original codes will hinder the researcher's ability to reproduce the content earlier created. In addition, using different versions of software may lead to different results when applying the same data code. **Packages, OS Software**
+Reproducibility in the field of science is something that developes slowly but steadily towards the future. The increased awareness about this issue and the implementation of electronic journals, mandatory archives, and code-sharing platforms such as Github has made the possibility to engage in reproducible research more achievable. With further implementation, the infrastructure can keep evolving. As stated earlier, the importance of a deeply integrated culture within science will be essential for development. If future papers are released, published, and distributed to others, it will reduce the spread of misinformation and make reproducibility achievable.
 
-On the contrary, one of the most significant barriers to reproducible research is the lack of an integrated culture within the science community. Despite many incremental steps towards this goal, it will most likely be a long process before we see this type of culture fully implemented. [@peng2011] describes this culture as a "culture of reproducibility," and the effect this may have on the field of science can be immense. For example, we would see reproducibility as a bare minimum standard for all scientific papers, which would validate scientific claims and make the information spread out to the masses more reliable.Furthermore, it seems to be mixed results when it comes to researcher incentives to engage in reproducible research. On the one hand, we can see a lack of penalties for not contributing to this matter. According to @mccullough2008, auteurs who refused policies related to replication and those who wouldn't distribute their code and data to an archive did not get a penalty. A stricter penalty system, where authors would have to distribute their code and data, may promote cause for reproducible research. On the other hand, we see multiple journals that have adopted a mandatory demand for data and code archives, such as "Econometrica" in 2005 @frisch1933. Having these integrated adaptations in their journals can further incentivize reproducibility among researchers.
-
-Reproducibility in the field of science is something that will develop slowly but steadily towards the future. The increased awareness about this issue and the implementation of electronic journals, mandatory archives, and code-sharing platforms such as Github has made the possibility to engage in reproducible research more achievable. With further implementation, the infrastructure can keep evolving. As stated earlier, the importance of a deeply integrated culture within science will be essential for development. If future papers are released, published, and distributed to others, it will reduce the spread of misinformation and make reproducibility achievable. 
+To summarize, we found several indications that computable documents such as Rnotebooks can increase the possibility of reproducibility. 
+Computable documents are a possible way to solve issues connected to mandatory archives and code-sharing platforms. However, notwithstanding the possibilities R notebooks and computable documents entail, other predicaments need to be solved to optimize reproducibility. There will still be a need for development in other components of the domain. In conclusion, R notebook implies a step in the right direction but not a complete solution to this problem.
+ 
 
 # **References**
 
