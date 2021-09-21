@@ -88,4 +88,4 @@ To summarize, we found several indications that computable documents such as Rno
 
 We have included a screenshot of our git-history to show commits and branches used during writing this paper.
 
-![](images/Skjermbilde%202021-09-16%20kl.%2011.44.39.png)
+![](images/Skjermbilde%202021-09-21%20kl.%2018.31.03-01.png)
