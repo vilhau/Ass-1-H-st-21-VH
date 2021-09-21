@@ -11,9 +11,9 @@ bibliography: references.bib
 
 ## Reproducibility
 
-**In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.**
-
 Scientific research and methodologies have undergone tremendous technological evolution in the latest decades. However, the manner in which these scientific papers and studies are being published has remained the same. To an extent, we can claim that publication methods are fifty years behind [@gentleman2004a]. For instance, we find that many published scientific papers are falsely concluded when thoroughly replicated. Giles and Tedd's book in @mccullough2008 illustrates an example of this matter around the Canadian underground economy. Their findings showed that the illegal economy grew tremendously in just under two decades from 3.6% to 15,6 % [@mccullough2008]. However, the model they used, MIMIC (multiple indicators, multiple causes), was later deemed useless by researcher Breusch for this experiment [@mccullough2008] .
+
+In this paper we will discuss the differences between replicability and reproducibility, the importance of reproducibility in science and how R Notebook may be a potential solution to this problem.
 
 ## Challenges
 
@@ -47,7 +47,7 @@ While investigating the importance of reproducibility we found a few points of s
 
 3.  **Culture within science community**
 
-When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
+R Markdown is a file format that allows production of dynamic documents, while R notebook is a document type that implements a notebook interface. When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
 
 ***This is an example of a code-chunk which shows the packages used in the program.***
 
@@ -57,7 +57,7 @@ sessionInfo()
 
 R Notebooks can be aligned with reproducibility as it enables documentation of used procedures. In this way potential mistakes in the procedure can be revealed. However, this is only the case if the scientist saves the versions of tools being used and results are interpreted in the R notebook. @peng2011 emphasizes that even though a research is reproducible, quality, correctness and validity of the published results is not guaranteed.
 
-One issue related to sharing code through R Notebook is that the original code may no longer be available. Loss of original codes will hinder the researcher's ability to reproduce the content earlier created. In addition, using different versions of software may lead to different results when applying the same data code.**Packages, OS Software**
+One issue related to sharing code through R Notebook is that the original code may no longer be available. Loss of original codes will hinder the researcher's ability to reproduce the content earlier created. Even though R markdown collaborates with the computational environment on most operating systems, the differences within OS software may challenge R markdown as a general solution. Using different versions of OS software may lead to different results when implementing the same procedure.
 
 The results seems to be mixed when it comes to researcher incentives to engage in reproducible research. On the one hand, we can see a lack of penalties for not contributing to this matter. According to @mccullough2008, auteurs who refused policies related to reproducibility and those who wouldn't distribute their code and data to an archive did not get a penalty. A stricter penalty system, where authors would have to distribute their code and data, may promote cause for reproducible research. On the other hand, we see multiple journals that have adopted a mandatory demand for data and code archives, such as "Econometrica" in 2005 @frisch1933. Having these integrated adaptations in their journals can further incentivize reproducibility among researchers.
 
@@ -88,8 +88,6 @@ Computable documents are a possible way to solve issues connected to mandatory a
 
 # Appendix
 
-1.  Screenshot of git-history
-
--   We have included a screenshot of our git-history to show commits and branches used during writing this paper.
+We have included a screenshot of our git-history to show commits and branches used during writing this paper.
 
 ![](images/Skjermbilde%202021-09-16%20kl.%2011.44.39.png)
