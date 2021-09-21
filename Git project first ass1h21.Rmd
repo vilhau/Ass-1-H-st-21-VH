@@ -2,6 +2,7 @@
 title: "Can R Notebooks help with reproducibility?"
 output:
   pdf_document: default
+  word_document: default
   html_document:
     df_print: paged
 bibliography: references.bib
@@ -47,7 +48,7 @@ While investigating the importance of reproducibility we found a few points of s
 
 3.  **Culture within science community**
 
-R Markdown is a file format that allows production of dynamic documents, while R notebook is a document type that implements a notebook interface. When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
+R Markdown is a file format that allows production of dynamic documents, while R notebook is a document type that implements a notebook interface [@riederer] . When performing research in R notebooks all codes used trough the performance is saved and documented. Accordingly, R notebooks helps reduce a barrier to reproducibility by making codes available. Published and available codes give other researchers and scientist the ability to follow the same procedures when duplicating research. For instance the function *"SessionInfo"* can be helpful and informative when duplicating procedures as it documents information about which packages and R versions used by the original investigator.
 
 ***This is an example of a code-chunk which shows the packages used in the program.***
 
