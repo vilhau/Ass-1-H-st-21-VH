@@ -71,13 +71,11 @@ So how can the usage of a research compendium be a potential solution with repro
 
 # Conclusion
 
-**Help but not a solution/fix Issues such as: Different OS system, packages, software etc**
-
 We believe that introducing the standard of making data and computer code available to others through R Notebook, will only partly solve the problem with reproducibility. From the research conducted in this assignment, we found that a few critical barriers prohibit reproducibility in the field of science. On the upside, technological innovations have made sharing detailed logs about all utilized codes much more manageable. They will most definitely be more precise than a journal using a natural language.
 
 Reproducibility in the field of science is something that developes slowly but steadily towards the future. The increased awareness about this issue and the implementation of electronic journals, mandatory archives, and code-sharing platforms such as Github has made the possibility to engage in reproducible research more achievable. With further implementation, the infrastructure can keep evolving. As stated earlier, the importance of a deeply integrated culture within science will be essential for development. If future papers are released, published, and distributed to others, it will reduce the spread of misinformation and make reproducibility achievable.
 
-To summarize, we found several indications that computable documents such as Rnotebooks can increase the possibility of reproducibility. Computable documents are a possible way to solve issues connected to mandatory archives and code-sharing platforms. However, notwithstanding the possibilities R notebooks and computable documents entail, other predicaments need to be solved to optimize reproducibility. There will still be a need for development in other components of the domain. In conclusion, R notebook implies a step in the right direction but not a complete solution to this problem.
+To summarize, we found several indications that computable documents such as R notebooks can increase the possibility of reproducibility. Computable documents are a possible way to solve issues connected to mandatory archives and code-sharing platforms. However, notwithstanding the possibilities R notebooks and computable documents entail, other predicaments need to be solved to optimize reproducibility. There will still be a need for development in other components of the domain. In conclusion, R notebook implies a step in the right direction but not a complete solution to this problem.
 
 # **References**
 
