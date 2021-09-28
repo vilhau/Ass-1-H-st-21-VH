@@ -1,0 +1,34 @@
+---
+title: "ag comments"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+-   .bib filen og bildet manglet så dokumentet ville ikke kjøre. La til en .bib fil (i samme slengen oppdaterte jeg den fordi det begynte å bli mange duplikater). I den forbindelse måtte endre litt på noen av citekey-ene. Håper jeg har valgt de riktige kildene.
+
+-   Dere bør ha en innledning (Introduction). Jeg har flyttet på en setning for å få starten av en innledning (hva paperet dreier seg om). I tillegg burde dere ha en setning eller to om hva som kommer lengre nede:
+
+    -   definisjon av begrepet «reproducibility»,
+
+    -   skisse av utfordingene
+
+    -   litteraturgjennomgang
+
+    -   diskusjon
+
+    -   konklusjon
+
+-   Jeg har endret nivået på noen av overskriftene til Heading 1
+
+-   Det var en gammel gren ag fra når jeg hjalp dere. Jeg startet med å slette denne for så å åpne en ny gren ag. Det er denne grenen jeg jobber i nå.
+
+-    Se på bruk av «inline citation», f.eks Peng i siste linje *Challenges* avsnittet og Jasny Mccullogh første linje *Literature review*
+
+-   Har forslått noen endringer i enkelte setninger. Velg mitt forlag hvis dere synes det er bedre, hvis ikke ignorer det.
+
+-   Var et par steder jeg ikke skjønte hva dere mente. Har der lagt inn en kommentar på norsk. Prøv å formuler dere mer presist.
+
+-   Med de beskjedne endringene foreslått ovenfor skulle dere ha et kjekt lite paper om emnet reproduser forskning
